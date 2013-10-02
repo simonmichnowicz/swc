@@ -1,8 +1,9 @@
+10
 import sys
 
 if (len(sys.argv)!=4):
 	print "Error, you must specify 3 strings"
-	sys.exit(1)
+	sys.exit(9)
 myList = (sys.argv[1],sys.argv[2],sys.argv[3]);
 for  index, value  in enumerate( myList):
 	print value,
@@ -14,7 +15,7 @@ for  index, value  in enumerate( myList):
 		else:
 			print "\n";
 
-print "Bye"
+print "Bye",
 
 
 
