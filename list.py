@@ -1,3 +1,4 @@
+10
 import sys
 
 if (len(sys.argv)!=4):
@@ -14,7 +15,7 @@ for  index, value  in enumerate( myList):
 		else:
 			print "\n";
 
-print "Bye"
+print "Bye",
 
 
 
