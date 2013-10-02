@@ -1,1 +1,2 @@
-Placehlder for new script
+#Placehlder for new script
+print "Bye"
